@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Mono Variable', monospace;
+  @apply bg-gray-100 dark:bg-darkest-blue text-lighter-blue dark:text-white text-sm sm:text-base;
+}
